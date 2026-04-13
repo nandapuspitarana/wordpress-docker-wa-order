@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/template-wa-order"]
+	path = wp-content/themes/template-wa-order
+	url = https://github.com/nandapuspitarana/template-wa-order.git
