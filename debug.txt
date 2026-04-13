@@ -1,0 +1,36 @@
+Array
+(
+    [HTTP_AUTHORIZATION] => 
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.26100.7705
+    [HTTP_HOST] => localhost:8080
+    [HTTP_CONNECTION] => Keep-Alive
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.65 (Debian) Server at localhost Port 8080</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.65 (Debian)
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => 172.19.0.3
+    [SERVER_PORT] => 8080
+    [REMOTE_ADDR] => 172.19.0.1
+    [DOCUMENT_ROOT] => /var/www/html
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /var/www/html
+    [SERVER_ADMIN] => webmaster@localhost
+    [SCRIPT_FILENAME] => /var/www/html/test.php
+    [REMOTE_PORT] => 46820
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /test.php
+    [SCRIPT_NAME] => /test.php
+    [PHP_SELF] => /test.php
+    [REQUEST_TIME_FLOAT] => 1772933415.0203
+    [REQUEST_TIME] => 1772933415
+    [argv] => Array
+        (
+        )
+
+    [argc] => 0
+)
