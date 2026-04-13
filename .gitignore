@@ -21,3 +21,6 @@ wp-content/debug.log
 *.log
 *.tmp
 
+# Secrets
+.env
+.env.local
