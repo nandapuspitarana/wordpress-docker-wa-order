@@ -22,6 +22,17 @@ This repository contains a **Dockerized WordPress** setup ready for local develo
    ```bash
    git submodule update --init --recursive
    ```
+
+### 🔄 Updating Submodules
+Jika ada pembaruan pada theme (submodule), Anda dapat menarik perubahan terbaru dengan perintah:
+```bash
+git submodule update --remote --merge
+```
+Atau jika ingin menarik perubahan di project utama sekaligus semua submodule:
+```bash
+git pull --recurse-submodules
+```
+
 2. **Start the containers**:
    ```bash
    docker compose up -d

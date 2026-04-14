@@ -30,6 +30,7 @@ services:
     volumes:
       - ./wp-config.php:/var/www/html/wp-config.php
       - ./apache.conf:/etc/apache2/sites-available/000-default.conf
+      - ./php.ini:/usr/local/etc/php/conf.d/php.ini
       - ./wp-content/themes:/var/www/html/wp-content/themes
       - ./wp-content/plugins:/var/www/html/wp-content/plugins
       - ./uploads:/var/www/html/wp-content/uploads
